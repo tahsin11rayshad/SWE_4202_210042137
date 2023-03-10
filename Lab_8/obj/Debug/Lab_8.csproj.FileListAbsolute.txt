@@ -1,0 +1,8 @@
+E:\Visual Studio\SWE_4202_210042137\Lab_8\obj\Debug\Lab_8.csproj.AssemblyReference.cache
+E:\Visual Studio\SWE_4202_210042137\Lab_8\obj\Debug\Lab_8.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio\SWE_4202_210042137\Lab_8\obj\Debug\Lab_8.csproj.CoreCompileInputs.cache
+E:\Visual Studio\SWE_4202_210042137\Lab_8\bin\Debug\Lab_8.exe.config
+E:\Visual Studio\SWE_4202_210042137\Lab_8\bin\Debug\Lab_8.exe
+E:\Visual Studio\SWE_4202_210042137\Lab_8\bin\Debug\Lab_8.pdb
+E:\Visual Studio\SWE_4202_210042137\Lab_8\obj\Debug\Lab_8.exe
+E:\Visual Studio\SWE_4202_210042137\Lab_8\obj\Debug\Lab_8.pdb
