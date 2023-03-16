@@ -19,9 +19,24 @@ namespace Lab_09
 
         private void log_in_button1_Click(object sender, EventArgs e)
         {
-            Form3 form3= new Form3();
-            form3.Show();
-            this.Hide();
+            string user_name= username_textBox.Text;
+            string password = Password_textBox.Text;
+
+            foreach(User u in Utility.users)
+            {
+                if(u.username != user_name && u.password != password)
+                {
+                    MessageBox.Show("Wrong User Name or Password");
+                }
+                else
+                {
+                    Form3 form3 = new Form3();
+                    form3.Show();
+                    this.Hide();
+                }
+            }
+            
+            
         }
 
         private void sign_up_button_Click(object sender, EventArgs e)

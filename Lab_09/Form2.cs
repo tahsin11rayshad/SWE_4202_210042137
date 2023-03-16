@@ -37,28 +37,59 @@ namespace Lab_09
             {
                 foreach(User u in Utility.users)
                 {
-                    if(count >=6)
+                    if (u.username == user_name)
                     {
-                        if(password == retype_pass)
-                        {
-                            string path = "userid.txt";
-                            StreamWriter sw = File.AppendText(path);
-                            User uu = new User(user_name, name, password);
-                            Utility.users.Add(uu);
-                            string ss = $"{user_name},{password},{name}";
-                            MessageBox.Show("Sign Up Successful");
-                            sw.WriteLine(ss);
-                            sw.Close();
 
-                            Form1 form1= new Form1();
-                            form1.Show();
-                            this.Hide();
+                        if (count > 6)
+                        {
+                            if (password == retype_pass)
+                            {
+                                string path = "userid.txt";
+                                StreamWriter sw = File.AppendText(path);
+                                User uu = new User(user_name, name, password);
+                                Utility.users.Add(uu);
+                                string ss = $"{user_name},{password},{name}";
+                                MessageBox.Show("Sign Up Successful");
+                                sw.WriteLine(ss);
+                                sw.Close();
+
+                                Form1 form1 = new Form1();
+                                form1.Show();
+                                this.Hide();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Passwords Do not match");
+                            }
                         }
+                        else
+                        {
+                            MessageBox.Show("Passwords must be 6 charecters");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username exist. Try another");
                     }
                 }
             }
-            
-            
+            else
+            {
+
+                string path = "userid.txt";
+                StreamWriter sw = File.AppendText(path);
+                User uu = new User(user_name, name, password);
+                Utility.users.Add(uu);
+                string ss = $"{user_name},{password},{name}";
+                sw.WriteLine(ss);
+                sw.Close();
+
+                Form1 form1 = new Form1();
+                form1.Show();
+                this.Hide();
+            }
+
+
         }
 
         private void username_textBox_TextChanged(object sender, EventArgs e)
