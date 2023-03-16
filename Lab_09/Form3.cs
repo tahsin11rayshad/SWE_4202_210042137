@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace Lab_09
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
         }
 
         private void log_in_button2_Click(object sender, EventArgs e)
         {
-            Form1 form1 =new Form1();
-            form1.Show();
-            this.Hide();
+            Application.Exit();
         }
     }
 }

@@ -102,6 +102,7 @@
             this.log_in_button2.TabIndex = 7;
             this.log_in_button2.Text = "Log In!";
             this.log_in_button2.UseVisualStyleBackColor = false;
+            this.log_in_button2.Click += new System.EventHandler(this.log_in_button2_Click);
             // 
             // new_name_textBox
             // 

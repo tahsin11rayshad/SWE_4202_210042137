@@ -1,0 +1,13 @@
+E:\Visual Studio\SWE_4202_210042137\Lab_09\bin\Debug\Lab_09.exe.config
+E:\Visual Studio\SWE_4202_210042137\Lab_09\bin\Debug\Lab_09.exe
+E:\Visual Studio\SWE_4202_210042137\Lab_09\bin\Debug\Lab_09.pdb
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.csproj.AssemblyReference.cache
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.Form1.resources
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.Form2.resources
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.Form3.resources
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.Properties.Resources.resources
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.csproj.GenerateResource.cache
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.csproj.CoreCompileInputs.cache
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.exe
+E:\Visual Studio\SWE_4202_210042137\Lab_09\obj\Debug\Lab_09.pdb
