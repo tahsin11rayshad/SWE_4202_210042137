@@ -36,7 +36,7 @@
             // 
             this.welcom_label.AutoSize = true;
             this.welcom_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcom_label.Location = new System.Drawing.Point(284, 186);
+            this.welcom_label.Location = new System.Drawing.Point(287, 200);
             this.welcom_label.Name = "welcom_label";
             this.welcom_label.Size = new System.Drawing.Size(132, 32);
             this.welcom_label.TabIndex = 2;
@@ -48,9 +48,9 @@
             this.Exit_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Exit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Exit_button.ForeColor = System.Drawing.Color.White;
-            this.Exit_button.Location = new System.Drawing.Point(253, 344);
+            this.Exit_button.Location = new System.Drawing.Point(275, 370);
             this.Exit_button.Name = "Exit_button";
-            this.Exit_button.Size = new System.Drawing.Size(190, 43);
+            this.Exit_button.Size = new System.Drawing.Size(144, 43);
             this.Exit_button.TabIndex = 8;
             this.Exit_button.Text = "Exit";
             this.Exit_button.UseVisualStyleBackColor = false;

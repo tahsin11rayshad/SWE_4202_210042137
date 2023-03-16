@@ -40,18 +40,19 @@ namespace Lab_09
                     if (u.username == user_name)
                     {
 
-                        if (count > 6)
+                        if (count == 6)
                         {
                             if (password == retype_pass)
                             {
-                                string path = "userid.txt";
+                                string path = $@"E:\Visual Studio\SWE_4202_210042137\Lab_09\userid.txt"; 
                                 StreamWriter sw = File.AppendText(path);
                                 User uu = new User(user_name, name, password);
                                 Utility.users.Add(uu);
                                 string ss = $"{user_name},{password},{name}";
-                                MessageBox.Show("Sign Up Successful");
                                 sw.WriteLine(ss);
                                 sw.Close();
+
+                                MessageBox.Show("Sign Up Successful");
 
                                 Form1 form1 = new Form1();
                                 form1.Show();
@@ -59,7 +60,7 @@ namespace Lab_09
                             }
                             else
                             {
-                                MessageBox.Show("Passwords Do not match");
+                                MessageBox.Show("Passwords does not match");
                             }
                         }
                         else
@@ -76,7 +77,7 @@ namespace Lab_09
             else
             {
 
-                string path = "userid.txt";
+                string path = $@"E:\Visual Studio\SWE_4202_210042137\Lab_09\userid.txt";
                 StreamWriter sw = File.AppendText(path);
                 User uu = new User(user_name, name, password);
                 Utility.users.Add(uu);
